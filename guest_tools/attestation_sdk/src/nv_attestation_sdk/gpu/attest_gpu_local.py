@@ -25,7 +25,7 @@ def attest(nonce):
     jwt_token = ""
     try:
         params = {"verbose": False,
-                  "test_no_gpu": False,
+                  "test_no_gpu": True,
                   "driver_rim": None,
                   "vbios_rim": None,
                   "user_mode": True,
